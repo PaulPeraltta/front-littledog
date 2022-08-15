@@ -1,0 +1,21 @@
+
+ .btn {
+     border-color: transparent;
+     color: white;
+     font-size: 50px;
+     position: fixed;
+     right: 42px;
+     bottom: 33px;
+     /* background-color: rgba(0, 0, 0, 0.664); */
+     background-color: rgba(0, 0, 0, 0.658);
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+
+.btn:hover {
+    border-color: 0.3px white solid;
+    background-color: rgba(163, 163, 163, 0.911);
+}

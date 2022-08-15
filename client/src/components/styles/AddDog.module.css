@@ -1,0 +1,170 @@
+.head {
+    margin-top: 45px;
+    font-size: 50px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.heads {
+    /* margin-top: 40px; */
+    /* background-color: rgba(255, 255, 255, 0.473); */
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.boxForm {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 900px;
+    height: 550px;
+    margin-top: 20px;
+
+}
+
+.form {
+    margin-top: 30px;
+}
+
+.divs {
+    margin-bottom: 8px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.input {
+    font-size: 20px;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: none;
+    color: white;
+    margin-top: 5px;
+    border-radius: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background-color: #818181d2;
+}
+.inputWH {
+    font-size: 20px;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: none;
+    color: white;
+    margin-top: 5px;
+    border-radius: 25px;
+    width: 5.5rem;
+    padding-left: 30px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background-color: #818181d2;
+}
+
+.poss {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.four {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttonOk {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 20px;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.buttonBack {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 20px;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.buttonOk:hover {
+    color: #ffffff;
+    background-color: black;
+    background-color: rgba(94, 255, 30, 0.726);
+}
+.buttonBack:hover {
+    color: #ffffff;
+    background-color: black;
+    background-color: rgba(255, 30, 30, 0.726);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxThree {
+    display: flex;
+    justify-content: center;
+}
+
+.temps {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.inputError {
+    outline: none;
+    border: 2px rgb(100, 0, 0) solid;
+    font-size: 20px;
+    /* border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent; */
+    color: white;
+    margin-top: 5px;
+    border-radius: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    background-color: #818181d2;
+}
+
+.error {
+    color: rgb(160, 0, 0);
+}
+
+.boxFormularios {
+    height: 40px;
+    margin-bottom: 25px;
+}

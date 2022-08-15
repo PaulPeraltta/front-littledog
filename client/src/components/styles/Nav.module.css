@@ -1,0 +1,24 @@
+.navAll {
+    height: 45.375px;
+    background-color: rgba(0, 0, 0, 0.658);
+    display:flex;
+    justify-content: space-between;
+    padding: 6px 60px;
+}
+
+.title {
+    font-size: 36px;
+    color: white;
+}
+
+.about {
+    color: white;
+    font-size: 24px;
+    /* display: relative; */
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.about:hover {
+    color: rgb(199, 199, 199);
+}
