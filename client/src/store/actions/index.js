@@ -13,7 +13,7 @@ export const FILTER_BY_TEMP = 'FILTER_BY_TEMP'
 
 export function fetchBreeds() {
     return function(dispatch) {
-        axios.get('http://localhost:3001/api/dogs')
+        axios.get('https://littledog-db.herokuapp.com/api/dogs')
         .then(breeds => {
             dispatch({
                 type: FETCH_BREEDS,
@@ -29,7 +29,7 @@ export function fetchBreeds() {
 
 export function getTemperaments() {
     return function(dispatch) {
-        axios.get('http://localhost:3001/api/temperament')
+        axios.get('https://littledog-db.herokuapp.com/api/temperament')
         .then(temperaments => {
             dispatch({
                 type: GET_TEMPERAMENTS,
@@ -44,7 +44,7 @@ export function getTemperaments() {
 
 export function searchBreeds(search) {
     return function(dispatch) {
-        axios.get('http://localhost:3001/api/dogs?name='+search)
+        axios.get('https://littledog-db.herokuapp.com/api/dogs?name='+search)
         .then(breeds => {
             dispatch({
                 type: SEARCH_BREEDS,
@@ -97,7 +97,7 @@ export function filterDogsByAD(payload) {
 
 export function postDog(payload) {
     return function(dispatch) {
-         axios.post('http://localhost:3001/api/dogs', payload)  //payload === body
+         axios.post('https://littledog-db.herokuapp.com/api/dogs', payload)  //payload === body
          .then(resp => {
             return resp;
          })
@@ -106,7 +106,7 @@ export function postDog(payload) {
 
 export function getDetail(id) {
     return function(dispatch) {
-        axios.get('http://localhost:3001/api/dogs/'+id)
+        axios.get('https://littledog-db.herokuapp.com/api/dogs/'+id)
         .then(resp => {
              return dispatch({
                  type: GET_DETAIL,
